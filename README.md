@@ -27,8 +27,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/omkarmagadumdev)
-[![Twitter Follow](https://img.shields.io/twitter/follow/omkarmagadumdev?style=for-the-badge&logo=x)](https://x.com/omkarmagadumdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/omkar-magadum-729a4337a/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Omkar_dev3141?style=for-the-badge&logo=x)](https://x.com/Omkar_dev3141)
 
 </div>
 
@@ -110,12 +110,9 @@ To run this project locally:
 
 <b>👤 Omkar</b>
 
-- LinkedIn - [@omkarmagadumdev](https://www.linkedin.com/in/omkarmagadumdev)
-- Twitter - [@omkarmagadumdev](https://x.com/omkarmagadumdev)
+- LinkedIn - [@omkar-magadum-729a4337a](https://www.linkedin.com/in/omkar-magadum-729a4337a/)
+- Twitter - [@Omkar_dev3141](https://x.com/Omkar_dev3141)
 - GitHub - [@omkarmagadumdev](https://github.com/omkarmagadumdev)
 
 Feel free to contact me with any questions or feedback!
 
-## Acknowledgments
-
-This app was developed as part of the [Udemy course](https://www.udemy.com/course/the-ultimate-react-course) by **Jonas Schmedtmann**. Special thanks to Jonas for his excellent teaching and guidance throughout the course.

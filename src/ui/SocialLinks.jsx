@@ -46,7 +46,7 @@ function SocialLinks() {
 
       <li>
         <a
-          href="https://x.com/omkarmagadumdev"
+          href="https://x.com/Omkar_dev3141"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -63,7 +63,7 @@ function SocialLinks() {
 
       <li>
         <a
-          href="https://www.linkedin.com/in/omkarmagadumdev"
+          href="https://www.linkedin.com/in/omkar-magadum-729a4337a/"
           target="_blank"
           rel="noopener noreferrer"
         >
