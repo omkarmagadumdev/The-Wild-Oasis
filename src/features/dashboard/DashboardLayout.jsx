@@ -7,6 +7,7 @@ import { useCabins } from "../cabins/useCabins";
 import SalesChart from "./SalesChart";
 import DurationChart from "./DurationChart";
 import TodayActivity from "../check-in-out/TodayActivity";
+import Empty from "../../ui/Empty";
 
 const StyledDashboardLayout = styled.div`
   display: grid;
@@ -16,11 +17,18 @@ const StyledDashboardLayout = styled.div`
 `;
 
 function DashboardLayout() {
-  const { bookings, isLoading: isLoading1 } = useRecentBookings();
-  const { confirmedStays, isLoading: isLoading2, numDays } = useRecentStays();
-  const { cabins, isLoading: isLoading3 } = useCabins();
+  const { bookings, isLoading: isLoading1, error: error1 } =
+    useRecentBookings();
+  const {
+    confirmedStays,
+    isLoading: isLoading2,
+    numDays,
+    error: error2,
+  } = useRecentStays();
+  const { cabins, isLoading: isLoading3, error: error3 } = useCabins();
 
   if (isLoading1 || isLoading2 || isLoading3) return <Spinner />;
+  if (error1 || error2 || error3) return <Empty resourceName="dashboard data" />;
 
   return (
     <StyledDashboardLayout>
@@ -28,7 +36,7 @@ function DashboardLayout() {
         bookings={bookings}
         confirmedStays={confirmedStays}
         numDays={numDays}
-        cabinCount={cabins.length}
+        cabinCount={cabins?.length || 0}
       />
       <TodayActivity />
       <DurationChart confirmedStays={confirmedStays} />
