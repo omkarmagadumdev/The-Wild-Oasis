@@ -5,17 +5,17 @@
   <h1>The Wild Oasis - Admin</h1>
 
   <h3>
-    <a href="https://the-wild-oasis-alamin.vercel.app">
+    <a href="https://the-wild-oasis-six-wheat.vercel.app">
       <strong>Live Site</strong>
     </a>
   </h3>
 
   <div align="center">
-    <a href="https://the-wild-oasis-alamin.vercel.app">View website</a>
+    <a href="https://the-wild-oasis-six-wheat.vercel.app">View website</a>
     •
-    <a href="https://github.com/CodeWithAlamin/The-Wild-Oasis/issues">Report Bug</a>
+    <a href="https://github.com/omkarmagadumdev/The-Wild-Oasis/issues">Report Bug</a>
     •
-    <a href="https://github.com/CodeWithAlamin/The-Wild-Oasis/pulls">Request Feature</a>
+    <a href="https://github.com/omkarmagadumdev/The-Wild-Oasis/pulls">Request Feature</a>
   </div>
 
   <hr>
@@ -27,8 +27,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/CodeWithAlamin)
-[![Twitter Follow](https://img.shields.io/twitter/follow/CodeWithAlamin?style=for-the-badge&logo=x)](https://x.com/CodeWithAlamin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/omkarmagadumdev)
+[![Twitter Follow](https://img.shields.io/twitter/follow/omkarmagadumdev?style=for-the-badge&logo=x)](https://x.com/omkarmagadumdev)
 
 </div>
 
@@ -38,7 +38,7 @@ Welcome to <b>The Wild Oasis</b>! This is a hotel management web app, where hote
 </p>
 
 <!-- Screenshot -->
-<a align="center" href="https://the-wild-oasis-alamin.vercel.app">
+<a align="center" href="https://the-wild-oasis-six-wheat.vercel.app">
 
 ![Screenshot](./public/thumbnail-preview.jpg)
 
@@ -46,11 +46,11 @@ Welcome to <b>The Wild Oasis</b>! This is a hotel management web app, where hote
 
 ## Live Site
 
-Check out the live admin app here: [The Wild Oasis - Admin](https://the-wild-oasis-alamin.vercel.app)
+Check out the live admin app here: [The Wild Oasis - Admin](https://the-wild-oasis-six-wheat.vercel.app)
 
 ## Customer Version
 
-I also built a **customer version** of this app, where guests can view and book cabins, manage their bookings, and update their profiles. The repository is [here](https://github.com/CodeWithAlamin/The-Wild-Oasis-Booking), and the live site is [here](https://the-wild-oasis-booking-alamin.vercel.app).
+This repository contains the admin version of The Wild Oasis.
 
 ## Key Features
 
@@ -92,7 +92,7 @@ To run this project locally:
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/CodeWithAlamin/The-Wild-Oasis.git
+  git clone https://github.com/omkarmagadumdev/The-Wild-Oasis.git
    ```
 2. Install dependencies:
    ```bash
@@ -108,11 +108,11 @@ To run this project locally:
 
 ## Author
 
-<b>👤 Alamin</b>
+<b>👤 Omkar</b>
 
-- LinkedIn - [@CodeWithAlamin](https://www.linkedin.com/in/CodeWithAlamin)
-- Twitter - [@CodeWithAlamin](https://www.twitter.com/CodeWithAlamin)
-- GitHub - [@CodeWithAlamin](https://github.com/CodeWithAlamin)
+- LinkedIn - [@omkarmagadumdev](https://www.linkedin.com/in/omkarmagadumdev)
+- Twitter - [@omkarmagadumdev](https://x.com/omkarmagadumdev)
+- GitHub - [@omkarmagadumdev](https://github.com/omkarmagadumdev)
 
 Feel free to contact me with any questions or feedback!
 
