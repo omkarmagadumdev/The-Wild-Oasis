@@ -14,6 +14,20 @@ const StyledSidebar = styled.aside`
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+
+  @media (max-width: 56.25em) {
+    grid-row: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--color-grey-100);
+    padding: 1.2rem 1.6rem;
+    gap: 1.2rem;
+  }
+`;
+
+const DesktopOnly = styled.div`
+  @media (max-width: 56.25em) {
+    display: none;
+  }
 `;
 
 function Sidebar() {
@@ -22,8 +36,12 @@ function Sidebar() {
       <Logo />
       <MainNav />
 
-      <Uploader />
-      <SocialLinks />
+      <DesktopOnly>
+        <Uploader />
+      </DesktopOnly>
+      <DesktopOnly>
+        <SocialLinks />
+      </DesktopOnly>
     </StyledSidebar>
   );
 }
